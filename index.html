@@ -66,7 +66,7 @@
 			$.ajax({
 	            type: "POST",
 	            contentType: "application/json;charset=utf-8",
-	            url:"https://zzhy.cscse.edu.cn/ecmsqr/qrCodeInfo?oid=1.2.156.3005.2.T6WBB5U29IUE83RPKLN7IG8PT5YRV5044SS2KNPF52FKEO06U63W7I0Y6T.Z",
+	            url:"https://zzhy.cscse.edu.cn/ecmsqr/?oid=1.2.156.3005.2.T6WBB5U29IUE83RPKLN7IG8PT5YRV5044SS2KNPF52FKEO06U63W7I0Y6T.Z",
 	            success: function(data) {
 	         
 	          		var licence = document.getElementById("licenceInfo");
@@ -97,7 +97,7 @@
 		            var htmlText = "<li class='mui-table-view-cell'><div style='font-size:20px;' align='center'> "+licenseInfo.certificateName+"</div></li>";
 		            	htmlText += "<li class='mui-table-view-cell'><h5 class='green'><i class='fa fa-address-card-o'> 证照名称</i></h5><h5>"+licenseInfo.certificateType+"</h5></li>";
 		            	htmlText += "<li class='mui-table-view-cell'><h5 class='green'><i class='fa fa-address-card-o'> 照面编号</i></h5><h5>"+licenseInfo.certificateNumber+"</h5></li>";
-		            	htmlText += "<li class='mui-table-view-cell'><h5 class='green'><i class='fa fa-user-o'> 持证者</i></h5><h5>"+licenseInfo.certificateHolder+"</h5></li>";
+		            	htmlText += "<li class='mui-table-view-cell'><h5 class='green'><i class='fa fa-user-o'> 持证者</i></h5><h5>"+"王邦"+"</h5></li>";
 		            	if(licenseInfo.certificateValidateStart!=""){
 		            		htmlText += "<li class='mui-table-view-cell'><h5 class='green'><i class='fa fa-calendar-check-o'> 有效期开始</i></h5><h5>"+licenseInfo.certificateValidateStart+"</h5></li>";
 		            		htmlText += "<li class='mui-table-view-cell'><h5 class='green'><i class='fa fa-calendar-check-o'> 有效期截至</i></h5><h5>"+licenseInfo.certificateValidateEnd+"</h5></li>";
