@@ -388,9 +388,7 @@
   content: "\f045";
 }
 .fa-check-square-o:before {
-  content: url(png\验证.png);
-  widgh: 20px;
-  height: 20px;
+  content: none;
 }
 .fa-arrows:before {
   content: "\f047";
@@ -870,9 +868,7 @@
   content: "\f0f5";
 }
 .fa-file-text-o:before {
-  content: url(png\文件.png);
-  widgh: 20px;
-  height: 20px;
+  content: none;
 }
 .fa-building-o:before {
   content: "\f0f7";
@@ -1996,9 +1992,7 @@
   content: "\f273";
 }
 .fa-calendar-check-o:before {
-  content: url(png\日历.png);
-  widgh: 20px;
-  height: 20px;
+  content: none;
 }
 .fa-industry:before {
   content: "\f275";
@@ -2210,9 +2204,7 @@
 }
 .fa-vcard-o:before,
 .fa-address-card-o:before {
-  content: url(png\证件.png);
-  widgh: 20px;
-  height: 20px;
+  content: none;
 }
 .fa-user-circle:before {
   content: "\f2bd";
@@ -2221,9 +2213,7 @@
   content: "\f2be";
 }
 .fa-user-o:before {
-  content: url(png\用户.png);
-  widgh: 20px;
-  height: 20px;
+  content: none;
 }
 .fa-id-badge:before {
   content: "\f2c1";
